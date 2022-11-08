@@ -14,3 +14,10 @@ The parts needed to complete this project are:
   - DC motor x2
   - Motor shield
   
+
+## Functions:
+
+  - moveForward - will turn the DC motors forward
+  - stopping - will stop the DC motors
+  - turnLeft - will turn the car left
+  - turnRight - will turn the car right
