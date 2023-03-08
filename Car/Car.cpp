@@ -27,6 +27,15 @@ Car::Car()
     pinMode(_echoPin, INPUT);
 }
 
+void Car::reserse(){
+    analogWrite(_motor1Speed, 255);
+    analogWrite(_motor2Speed, 255);
+    digitalWrite(_motor1Brake, LOW);
+    digitalWrite(_motor2Brake, LOW);
+    digitalWrite(_motor1Direction, LOW);
+    digitalWrite(_motor2Direction, LOW);
+}
+
 void Car::moveForward(/*int speed*/){
     Serial.println("Moving forward");
 

@@ -17,6 +17,7 @@ class Car
     int checkSpace();
     int checkLeft();
     int checkRight();
+    void reserse();
   private:
     int _motor1Direction, _motor2Direction;
     int _motor1Speed, _motor2Speed;
