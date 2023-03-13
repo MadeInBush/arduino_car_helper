@@ -8,7 +8,7 @@ class Car
 {
   public:
     Car();
-    void moveForward();
+    void moveForward(int = 255);
     void stopping();
     void turnLeft(int time);
     void turnRight(int time);
@@ -17,7 +17,7 @@ class Car
     int checkSpace();
     int checkLeft();
     int checkRight();
-    void reserse();
+    void reverse(int = 255);
   private:
     int _motor1Direction, _motor2Direction;
     int _motor1Speed, _motor2Speed;
